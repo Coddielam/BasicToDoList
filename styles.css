@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 50px;
+  background-color: rgba(41, 41, 41, 0.959);
+}
+
+h1 {
+  color: whitesmoke;
+}
+hr {
+  margin: 10px 0;
+}
+
+li {
+  list-style: none;
+  border: dashed 2px lightgray;
+  width: fit-content;
+  margin: 8px 0;
+  color: whitesmoke;
+}
+
+input.addToList {
+  background-color: palegreen;
+  color: black;
+  border: solid 2px transparent;
+  padding: 2px 8px;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+}
+input.addToList:hover {
+  transform: scale(1.1);
+  border: solid black 2px;
+  color: black;
+  background-color: whitesmoke;
+}
+input.addToList:focus {
+  outline: none;
+}
+
+li button:nth-child(1) {
+  margin-left: 20px;
+}
+
+li.todoLi {
+  margin-left: 20px;
+  padding: 5px 10px;
+}
+
+button {
+  border: solid 1px;
+  padding: 2px;
+  cursor: pointer;
+}
+button.remove {
+  background-color: rgba(255, 100, 80, 0.849);
+}
+button.up,
+button.down {
+  background-color: rgba(100, 148, 237, 0.849);
+}
